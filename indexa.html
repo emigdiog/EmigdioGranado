@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portafolio | Emigdio Granado</title>
+  <script src="https://cdn.jsdelivr.net/npm/alpinejs" defer></script>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-900 text-gray-100 font-sans">
+  <!-- Header -->
+  <header class="p-6 border-b border-gray-700">
+    <div class="max-w-5xl mx-auto flex justify-between items-center">
+      <h1 class="text-2xl font-bold">Emigdio Granado</h1>
+      <nav class="space-x-4">
+        <a href="#proyectos" class="hover:text-indigo-400">Proyectos</a>
+        <a href="#skills" class="hover:text-indigo-400">Habilidades</a>
+        <a href="#certificados" class="hover:text-indigo-400">Certificados</a>
+        <a href="#contacto" class="hover:text-indigo-400">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Presentación -->
+  <section class="py-12 px-6 max-w-5xl mx-auto">
+    <h2 class="text-4xl font-bold mb-4">Hola, soy <span class="text-indigo-400">desarrollador web</span></h2>
+    <p class="text-lg text-gray-400">Creo soluciones modernas en la web usando HTML, TailwindCSS, PHP y más. Este es mi portafolio.</p>
+  </section>
+
+  <!-- Proyectos -->
+  <section id="proyectos" class="py-12 px-6 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6 border-b border-gray-600 pb-2">Proyectos</h2>
+    <div class="grid md:grid-cols-3 gap-6">
+      <div class="bg-gray-800 p-4 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">🔐 Web de desbloqueo</h3>
+        <p class="text-gray-400">Panel completo con login, formulario dinámico y backend en PHP + MySQL.</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">📊 Dashboard Admin</h3>
+        <p class="text-gray-400">Interfaz moderna con gráficos y tablas usando Tailwind y AlpineJS.</p>
+      </div>
+      <div class="bg-gray-800 p-4 rounded-xl shadow-lg">
+        <h3 class="text-xl font-semibold mb-2">🤖 Bot de automatización</h3>
+        <p class="text-gray-400">Script Python que automatiza tareas + log de resultados.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Habilidades -->
+  <section id="skills" class="py-12 px-6 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6 border-b border-gray-600 pb-2">Habilidades</h2>
+    <div class="grid grid-cols-2 md:grid-cols-3 gap-6 text-center">
+      <div class="bg-gray-800 py-4 px-2 rounded-lg flex flex-col items-center hover:scale-105 transform transition">
+        <i class="fab fa-html5 text-orange-500 text-3xl mb-2"></i>
+        <span>HTML</span>
+      </div>
+      <div class="bg-gray-800 py-4 px-2 rounded-lg flex flex-col items-center hover:scale-105 transform transition">
+        <i class="fab fa-css3-alt text-blue-400 text-3xl mb-2"></i>
+        <span>CSS</span>
+      </div>
+      <div class="bg-gray-800 py-4 px-2 rounded-lg flex flex-col items-center hover:scale-105 transform transition">
+        <i class="fas fa-wind text-teal-400 text-3xl mb-2"></i>
+        <span>Tailwind</span>
+      </div>
+      <div class="bg-gray-800 py-4 px-2 rounded-lg flex flex-col items-center hover:scale-105 transform transition">
+        <i class="fab fa-bootstrap text-purple-400 text-3xl mb-2"></i>
+        <span>Bootstrap</span>
+      </div>
+      <div class="bg-gray-800 py-4 px-2 rounded-lg flex flex-col items-center hover:scale-105 transform transition">
+        <i class="fab fa-js-square text-yellow-400 text-3xl mb-2"></i>
+        <span>JavaScript</span>
+      </div>
+      <div class="bg-gray-800 py-4 px-2 rounded-lg flex flex-col items-center hover:scale-105 transform transition">
+        <i class="fab fa-php text-indigo-300 text-3xl mb-2"></i>
+        <span>PHP</span>
+      </div>
+      <div class="bg-gray-800 py-4 px-2 rounded-lg flex flex-col items-center hover:scale-105 transform transition">
+        <i class="fas fa-database text-green-300 text-3xl mb-2"></i>
+        <span>MySQL / Query</span>
+      </div>
+      <div class="bg-gray-800 py-4 px-2 rounded-lg flex flex-col items-center hover:scale-105 transform transition">
+        <i class="fab fa-python text-yellow-300 text-3xl mb-2"></i>
+        <span>Python</span>
+      </div>
+      <div class="bg-gray-800 py-4 px-2 rounded-lg flex flex-col items-center hover:scale-105 transform transition">
+        <i class="fas fa-code text-blue-300 text-3xl mb-2"></i>
+        <span>C#</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificados -->
+  <section id="certificados" class="py-12 px-6 max-w-5xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6 border-b border-gray-600 pb-2">Certificados</h2>
+    <ul class="list-disc list-inside text-gray-400">
+      <li>🧾 Desarrollo Web Completo - Udemy</li>
+      <li>🎓 Introducción a Python - Universidad Nacional</li>
+      <li>📜 Lógica de Programación - Udemy</li>
+    </ul>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-12 px-6 max-w-5xl mx-auto text-center">
+    <h2 class="text-2xl font-bold mb-4">Contáctame</h2>
+    <p class="text-gray-400 mb-4">¿Interesado en trabajar juntos? Escríbeme.</p>
+    <div class="space-x-4">
+      <a href="https://wa.me/" class="text-indigo-400 hover:underline">WhatsApp</a>
+      <a href="mailto:tucorreo@example.com" class="text-indigo-400 hover:underline">Email</a>
+      <a href="https://t.me/" class="text-indigo-400 hover:underline">Telegram</a>
+    </div>
+  </section>
+
+  <footer class="text-center text-gray-600 text-sm py-6 border-t border-gray-700">
+    © 2025 Tu Nombre. Portafolio personal.
+  </footer>
+</body>
+</html>
